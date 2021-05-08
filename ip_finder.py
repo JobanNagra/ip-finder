@@ -28,6 +28,7 @@ print(Fore.LIGHTGREEN_EX + 'Lets Begin')
 print()
 print('joban')
 
+input('Press Enter To See your IP')
 
 import socket
 hostn = socket.gethostname()
@@ -37,4 +38,4 @@ print('Your IP Address = ' +ipad)
 print()
 
 print('Now you Know your Ip so better Try to hide it from hackers')
-input('press enter to close')
+input('Press enter to Close')
